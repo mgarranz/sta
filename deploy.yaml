@@ -6,11 +6,11 @@ spec:
   replicas: 1
   selector:
     matchLabels:
-      app: sta-app
+      app: java-springboot-app
   template:
     metadata:
       labels:
-        app: sta-app
+        app: java-springboot-app
     spec:
       containers:
         - name: sta
